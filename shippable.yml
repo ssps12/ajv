@@ -6,13 +6,13 @@ node_js:
 env:
   - XUNIT_FILE=shippable/testresults/result.xml
 
-  runtime:
+runtime:
   nodePool: shippable_shared_aarch64
 
 notifications:
   email:
     recipients:
-    - shsakshi97@gmail.com 
+    - shsakshi97@gmail.com
 
 build:
   ci:
